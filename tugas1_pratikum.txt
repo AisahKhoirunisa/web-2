@@ -1,0 +1,42 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root?
+    Root folder atau document root merupakan direktori/folder utama tempat file-file website diletakkan.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? Jelaskan jawaban anda 
+    Tidak, dokumen root tidak harus terletak di C:\xampp\htdocs. Anda bisa mengubah lokasi dokumen root Apache sesuai kebutuhan dengan mengedit file konfigurasi httpd.conf pada Apache, sehingga dokumen root bisa berada di direktori lain selain C:\xampp\htdocs.
+
+3. Jelaskan apa yang dimaksud dengan perintah git: init, clone, remote, add, commit, push dan checkout ?
+    -git init: Membuat repositori Git baru di direktori lokal.
+    -git clone: Menyalin repositori yang ada ke direktori lokal.
+    -git remote: Mengelola repositori remote yang terhubung dengan repositori lokal.
+    -git add: Menambahkan perubahan ke staging area untuk siap di-commit.
+    -git commit: Menyimpan perubahan yang ada di staging area dengan pesan deskripsi.
+    -git push: Mengirim perubahan dari repositori lokal ke repositori remote.
+    -git checkout: Berpindah antar branch di repositori Git.
+
+4. Jelaskan perbedaan antara GitHub dan GitLab ? 
+    **GitHub:**
+    -Fungsi Utama: Fokus pada berbagi kode dan kolaborasi berbasis Git, terutama untuk proyek open-source.
+    -Pengelolaan: Dikelola oleh Microsoft, lebih berfokus pada proyek open-source.
+    -Hosting: Menyediakan hosting repositori publik dan privat di cloud (GitHub.com).
+    -CI/CD: Menyediakan GitHub Actions untuk CI/CD, meskipun sebelumnya tidak terintegrasi langsung.
+    -Komunitas dan Ekosistem: Memiliki komunitas yang sangat besar dan aktif, terutama untuk proyek open-source.
+    **GitLab:**
+    -Fungsi Utama: Menyediakan layanan berbagi kode serta alat DevOps lengkap seperti CI/CD dan manajemen proyek.
+    -Pengelolaan: Dikelola oleh GitLab Inc., menyediakan solusi end-to-end untuk pengembangan perangkat lunak.
+    -Hosting: Menyediakan opsi hosting di cloud (GitLab.com) atau bisa di-host sendiri (self-hosted).
+    -CI/CD: Menyediakan fitur CI/CD yang terintegrasi secara langsung dan lebih canggih.
+    -Komunitas dan Ekosistem: Komunitas lebih kecil dibanding GitHub, tetapi lebih berfokus pada pengguna enterprise dan tim pengembangan.
+
+5. Apa bedanya variable user dengan variable system ? 
+    **Variable User:**
+    -Merupakan variabel yang ditetapkan oleh pengguna (user) untuk keperluan personal atau khusus di dalam sistem operasi.
+    -Hanya berlaku untuk sesi pengguna yang membuat atau mengonfigurasinya.
+    -Contoh: Variabel lingkungan yang ditetapkan oleh pengguna untuk aplikasi atau proyek tertentu.
+    **Variable System:**
+    -Merupakan variabel yang ditetapkan oleh sistem operasi dan berlaku untuk seluruh sistem dan semua pengguna.
+    -Biasanya berisi informasi atau pengaturan penting untuk operasi sistem.
+    -Contoh: Variabel seperti PATH, yang menentukan direktori tempat program dieksekusi di seluruh sistem.
+
+6. Apa persamaan variable system dengan variable constant ?
+    -Nilai Tetap: Keduanya sering kali memiliki nilai yang tidak berubah setelah ditetapkan. Variabel sistem berisi pengaturan yang penting untuk sistem operasi, dan variabel konstan memiliki nilai tetap yang tidak bisa diubah setelah didefinisikan dalam kode atau aplikasi.
+    -Digunakan oleh Sistem atau Program: Kedua jenis variabel ini digunakan oleh sistem atau program untuk menyimpan nilai yang diperlukan untuk berfungsi dengan benar.
