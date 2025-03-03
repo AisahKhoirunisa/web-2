@@ -1,4 +1,5 @@
 <?php
+if (isset($_POST['simpan']))
 $proses = $_POST['simpan'];
 $nama_lengkap = $_POST['nama_lengkap'];
 $mata_kuliah = $_POST['mata_kuliah'];
@@ -46,12 +47,18 @@ switch ($grade) {
         break;
 }
 
+// Menentukan Status Kelulusan
+$status = ($nilai_akhir >= 56) ? "Lulus" : "Tidak Lulus";
+
 // Menampilkan hasil
+echo 'Proses : Simpan';
 echo '<br/>Nama : '.$nama_lengkap;
 echo '<br/>Mata Kuliah : '.$mata_kuliah;
 echo '<br/>Nilai UTS : '.$nilai_uts;
 echo '<br/>Nilai UAS : '.$nilai_uas;
 echo '<br/>Nilai Tugas Praktikum : '.$nilai_tugas;
-echo '<br/>Grade Nilai : '.$grade;
-echo '<br/>Predikat Nilai : '.$predikat;
+echo '<br/>Nilai Akhir : '.number_format($nilai_akhir, 2, ',', '');
+echo '<br/>Status : '.$status;
+echo '<br/>Grade : '.$grade;
+echo '<br/>Predikat : '.$predikat;
 ?>
