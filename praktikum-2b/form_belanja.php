@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-8">
                 <h2>Belanja Online</h2>
-                <form method="POST" action="total_belanja.php">  <!-- Form hanya ada di sini -->
+                <form method="POST" action="total_belanja.php"> 
                     <div class="form-group row">
                         <label for="customer" class="col-4 col-form-label">Nama Customer</label> 
                         <div class="col-8">
@@ -26,6 +26,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="form-group row">
                         <label class="col-4">Pilih Produk</label> 
                         <div class="col-8">
@@ -43,6 +44,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <label for="jumlah" class="col-4 col-form-label">Jumlah</label> 
                         <div class="col-8">
@@ -56,6 +58,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="form-group row">
                         <div class="offset-4 col-8">
                             <button name="submit" type="submit" class="btn btn-success">Kirim</button>
@@ -63,6 +66,7 @@
                     </div>
                 </form>
             </div>
+            
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header bg-primary text-white">
