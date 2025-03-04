@@ -1,62 +1,70 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
+
 <head>
-    <form class="form-horizontal" method="POST" action="nilai_mahasiswa.php">
-    <title>Form Nilai Siswa</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+<form class="form-horizontal" method="POST" action="nilai_mahasiswa.php">
+    <title>Form Nilai</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" style="padding: .75rem 1.25rem;">Sistem Penilaian</a>
+        </div>
+    </nav>
 
-<div class="container mt-5">
-    <h3 class="mb-3">Sistem Penilaian</h3>
-    <div class="card shadow-sm">
-        <div class="card-body">
-            <h4 class="mb-4">Form Nilai Siswa</h4>
-            <form method="POST" action="">
-                <div class="form-group row">
-                    <label for="nama_lengkap" class="col-md-4 col-form-label text-left font-weight-bold">Nama Lengkap</label> 
-                    <div class="col-md-6">
-                        <input id="nama_lengkap" name="nama_lengkap" placeholder="Nama Lengkap" type="text" class="form-control" required>
+    <div class="container mt-4">
+        <div class="card" style="border-style: none;">
+            <div class="card-header bg-white">
+                <h3 style="margin-left: 0;">Form Nilai Siswa</h3>
+            </div>
+            <div class="card-body col-12 text-end align-middle">
+                <form class="form-horizontal" method="POST" action="">
+                    <div class="form-group row">
+                        <label for="nama" class="col-sm-4 col-form-label"><strong>Nama Lengkap</strong></label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap" name="nama" required autocomplete="off">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="mata_kuliah" class="col-md-4 col-form-label text-left font-weight-bold">Mata Kuliah</label> 
-                    <div class="col-md-6">
-                        <select id="mata_kuliah" name="mata_kuliah" class="form-control">
-                            <option value="DDP">Dasar Dasar Pemrograman</option>
-                            <option value="BD1">Basis Data</option>
-                            <option value="WEB1">Pemrograman Web</option>
-                        </select>
+                    <div class="form-group row">
+                        <label for="matkul" class="col-sm-4 col-form-label"><strong>Mata Kuliah</strong></label>
+                        <div class="col-sm-4">
+                            <select class="custom-select" name="matkul" id="matkul" required>
+                                <option value="DDP" required>Dasar-Dasar Pemrograman</option>
+                                <option value="BD1" required>Basis Data I</option>
+                                <option value="WEB1" required>Pemrograman Web</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="nilai_uts" class="col-md-4 col-form-label text-left font-weight-bold">Nilai UTS</label> 
-                    <div class="col-md-3">
-                        <input id="nilai_uts" name="nilai_uts" placeholder="Nilai UTS" type="number" class="form-control" required>
+                    <div class="form-group row">
+                        <label for="uts" class="col-sm-4 col-form-label"><strong>Nilai UTS</strong></label>
+                        <div class="col-sm-2">
+                            <input type="number" class="form-control" id="uts" placeholder="Nilai UTS" min="0" max="100" name="nilai_uts" required>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="nilai_uas" class="col-md-4 col-form-label text-left font-weight-bold">Nilai UAS</label> 
-                    <div class="col-md-3">
-                        <input id="nilai_uas" name="nilai_uas" placeholder="Nilai UAS" type="number" class="form-control" required>
+                    <div class="form-group row">
+                        <label for="uas" class="col-sm-4 col-form-label"><strong>Nilai UAS</strong></label>
+                        <div class="col-sm-2">
+                            <input type="number" class="form-control" id="uas" placeholder="Nilai UAS" min="0" max="100" name="nilai_uas" required>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="nilai_tugas" class="col-md-4 col-form-label text-left font-weight-bold">Nilai Tugas/Praktikum</label> 
-                    <div class="col-md-3">
-                        <input id="nilai_tugas" name="nilai_tugas" placeholder="Nilai Tugas" type="number" class="form-control" required>
+                    <div class="form-group row">
+                        <label for="tugas" class="col-sm-4 col-form-label"><strong>Nilai Tugas/Praktikum</strong></label>
+                        <div class="col-sm-2">
+                            <input type="number" class="form-control" id="tugas" placeholder="Nilai Tugas" min="0" max="100" name="nilai_tugas" required>
+                        </div>
                     </div>
-                </div> 
-                <div class="form-group row">
-                    <div class="col-md-6 offset-md-4">
-                        <button name="simpan" type="submit" class="btn btn-success">Submit</button>
+                    <div class="form-group row">
+                        <div class="offset-4 col-8">
+                            <button name="proses" type="submit" class="btn btn-success" value="Simpan">Submit</button>
+                        </div>
                     </div>
-                </div>
-            </form>
-          </div>
+                </form>
+            </div>
+        </div>
     </div>
-</div>
-
 </body>
+
 </html>
