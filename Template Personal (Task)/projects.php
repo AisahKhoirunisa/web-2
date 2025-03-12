@@ -50,19 +50,19 @@
                                             <h2 class="fw-bolder">Analisis Tren Pasar dengan Machine Learning</h2>
                                             <p>Dalam proyek ini, saya mengembangkan sebuah model prediksi tren pasar menggunakan algoritma machine learning untuk membantu perusahaan dalam mengambil keputusan bisnis yang lebih akurat. Saya menggunakan Python dengan library seperti Pandas dan Scikit-Learn untuk mengolah dan menganalisis data, serta SQL untuk mengambil data dari basis data perusahaan. Selain itu, saya juga membuat dashboard interaktif menggunakan Tableau yang memungkinkan manajemen untuk melihat perubahan tren secara real-time. Dengan adanya model ini, akurasi prediksi tren pasar meningkat hingga 85% dan membantu perusahaan dalam mengoptimalkan strategi pemasaran serta penentuan harga produk. </p>
                                         </div>
-                                        <img class="img-fluid" src="assets/Analisis.png" alt="..." style="width: 700px; height: 800px;" />
+                                        <img class="img-fluid" src="assets/Analisis.png" alt="..." style="width: 300px; height: 400px;" />
                                     </div>
                                 </div>
                             </div>
-                            <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
                                     <div class="d-flex align-items-center">
                                         <div class="p-5">
-                                            <h2 class="fw-bolder">Desain UI/UX untuk Aplikasi Finansial  </h2>
-                                            <p>Saya terlibat dalam perancangan antarmuka dan pengalaman pengguna untuk sebuah aplikasi keuangan yang bertujuan membantu pengguna dalam mengelola keuangan mereka dengan lebih baik. Proses desain dimulai dengan riset pengguna untuk memahami kebutuhan serta kendala yang mereka alami dalam menggunakan aplikasi keuangan. Berdasarkan hasil riset, saya merancang wireframe dan prototipe menggunakan Figma serta Adobe XD yang kemudian diuji dengan calon pengguna sebelum diterapkan oleh tim pengembang. Aplikasi ini memiliki fitur utama seperti pencatatan transaksi, histori saldo, serta grafik pengeluaran yang interaktif dan mudah dipahami. Setelah peluncuran, desain baru ini berhasil meningkatkan retensi pengguna sebesar 40% dan mempercepat waktu transaksi pengguna hingga 30%. </p>
+                                            <h2 class="fw-bolder">Analisis Tren Pasar dengan Machine Learning</h2>
+                                            <p>Dalam proyek ini, saya mengembangkan sebuah model prediksi tren pasar menggunakan algoritma machine learning untuk membantu perusahaan dalam mengambil keputusan bisnis yang lebih akurat. Saya menggunakan Python dengan library seperti Pandas dan Scikit-Learn untuk mengolah dan menganalisis data, serta SQL untuk mengambil data dari basis data perusahaan. Selain itu, saya juga membuat dashboard interaktif menggunakan Tableau yang memungkinkan manajemen untuk melihat perubahan tren secara real-time. Dengan adanya model ini, akurasi prediksi tren pasar meningkat hingga 85% dan membantu perusahaan dalam mengoptimalkan strategi pemasaran serta penentuan harga produk. </p>
                                         </div>
-                                        <img class="img-fluid" src="assets/Desain.png" alt="..." />
+                                        <img class="img-fluid" src="assets/Analisis.png" alt="..." style="width: 300px; height: 400px;" />
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
                     <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                        <h2 class="display-4 fw-bolder mb-4"></h2>
                         <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.php">Contact me</a>
                     </div>
                 </div>
